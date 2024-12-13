@@ -1,4 +1,7 @@
 # Breast Cancer Detection App using AdaBoost Classifier
+## Introduction
+Breast cancer is one of the most common cancers affecting women worldwide. It occurs when cells in the breast grow uncontrollably, forming a tumor that can sometimes spread to other parts of the body.
+It is the most common cancer among women and can also occur in men, although rarely.
 
 ## Description
 This application leverages machine learning, specifically the AdaBoost classifier, to predict whether a breast tumor is malignant or benign based on various features. It provides real-time predictions from user inputs through an intuitive web interface built using Streamlit. The application also offers insights into model performance with detailed visualizations and metrics.
@@ -18,11 +21,11 @@ This application leverages machine learning, specifically the AdaBoost classifie
 
 ## Technologies Used
 - Python 3.x
-- Streamlit (for the web application)
-- scikit-learn (for machine learning)
-- joblib (for model serialization)
-- Matplotlib/Seaborn (for data visualization)
-- Pandas/Numpy (for data manipulation)
+- Streamlit
+- scikit-learn
+- joblib
+- Matplotlib/Seaborn
+- Pandas/Numpy
 
 ## Installation Instructions
 ### Prerequisites
@@ -63,3 +66,7 @@ The app takes normalized input values through sliders for features such as perim
 - Recall: 94%
 - F1-Score: 92%
 
+## Medical Disclaimer
+- The predictions made by this app are based on machine learning models trained on historical data. 
+- While the model aims to provide accurate predictions, it should not be used as a substitute for professional medical advice, diagnosis, or treatment. 
+- Always consult a qualified healthcare professional for any medical concerns.
