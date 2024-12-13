@@ -66,6 +66,17 @@ The app takes normalized input values through sliders for features such as perim
 - Recall: 94%
 - F1-Score: 92%
 
+## Why Adaboost Classifier?
+The AdaBoost classifier was chosen for this breast cancer detection project due to its ability to perform well on the dataset and its suitability for the problem domain. 
+- Accuracy on Tabular Data:
+    AdaBoost excels at handling tabular datasets with a mix of numerical and categorical features, making it ideal for medical diagnosis tasks.
+- Handles Imbalanced Data Well:
+    In medical datasets, rare but critical cases (e.g., malignant tumors) often need special attention. AdaBoost effectively addresses this by adjusting its weights dynamically to focus on the minority class.
+- Resistant to Overfitting
+    With proper parameter tuning, AdaBoost generalizes well and reduces the risk of overfitting, even on small or noisy datasets. This is crucial in medical diagnosis, where accurate predictions are vital.
+
+AdaBoost strikes a balance between simplicity, performance, and interpretability. Its focus on difficult-to-classify cases, ability to handle imbalanced data, and robust results make it the ideal choice for predicting breast cancer malignancy.
+
 ## Medical Disclaimer
 - The predictions made by this app are based on machine learning models trained on historical data. 
 - While the model aims to provide accurate predictions, it should not be used as a substitute for professional medical advice, diagnosis, or treatment. 
